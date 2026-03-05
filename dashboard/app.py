@@ -7,12 +7,12 @@ import plotly.express as px
 # Snowflake Connection
 # -----------------------------
 conn = snowflake.connector.connect(
-    user="RAGAWORKSPACE",
-    password="S@snowflake@1020",
-    account="IQXOOAU-OL07219",
-    warehouse="COMPUTE_WH",
-    database="PE_PLATFORM",
-    schema="ANALYTICS"
+    user=st.secrets["snowflake"]["user"],
+    password=st.secrets["snowflake"]["password"],
+    account=st.secrets["snowflake"]["account"],
+    warehouse=st.secrets["snowflake"]["warehouse"],
+    database=st.secrets["snowflake"]["database"],
+    schema=st.secrets["snowflake"]["schema"]
 )
 
 # -----------------------------

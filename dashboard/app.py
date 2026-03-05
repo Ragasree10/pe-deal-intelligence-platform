@@ -139,7 +139,33 @@ scatter = px.scatter(
     y="EBITDA_MARGIN",
     color="SECTOR",
     size="REVENUE",
+    opacity=0.5,
+    hover_name="COMPANY_NAME",
+    hover_data={
+        "REVENUE": True,
+        "EBITDA_MARGIN": True,
+        "DEBT_TO_EBITDA": True
+    },
     title="EBITDA Margin vs Leverage"
+)
+
+# Highlight attractive PE zone
+scatter.add_shape(
+    type="rect",
+    x0=0,
+    x1=3,
+    y0=0.25,
+    y1=0.40,
+    fillcolor="green",
+    opacity=0.1,
+    line_width=0
+)
+
+scatter.add_annotation(
+    x=1.5,
+    y=0.36,
+    text="Attractive PE Target Zone",
+    showarrow=False
 )
 
 st.plotly_chart(scatter, use_container_width=True)

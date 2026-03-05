@@ -16,7 +16,7 @@ conn = snowflake.connector.connect(
 )
 
 # -----------------------------
-# Load LBO Results
+# Load Data
 # -----------------------------
 query = """
 SELECT *
@@ -26,7 +26,7 @@ ORDER BY IRR DESC
 
 df = pd.read_sql(query, conn)
 
-# Convert IRR to percentage
+# Convert IRR to %
 df["IRR (%)"] = df["IRR"] * 100
 
 # -----------------------------
@@ -34,12 +34,10 @@ df["IRR (%)"] = df["IRR"] * 100
 # -----------------------------
 st.title("Private Equity Deal Intelligence Platform")
 
-st.markdown(
-"""
-Identify potential **buyout acquisition targets** using financial metrics,
-deal scoring, and LBO return simulations.
-"""
-)
+st.markdown("""
+Screen potential **Private Equity acquisition targets** using financial metrics,
+LBO simulations, and IRR-based investment screening.
+""")
 
 st.divider()
 
@@ -55,6 +53,25 @@ col3.metric("Average IRR", f"{df['IRR (%)'].mean():.1f}%")
 st.divider()
 
 # -----------------------------
+# Investment Criteria
+# -----------------------------
+st.subheader("Investment Screening Criteria")
+
+irr_threshold = st.slider(
+    "Minimum IRR (%)",
+    min_value=0,
+    max_value=100,
+    value=25
+)
+
+leverage_threshold = st.slider(
+    "Maximum Debt / EBITDA",
+    min_value=0.0,
+    max_value=10.0,
+    value=3.0
+)
+
+# -----------------------------
 # Sector Filter
 # -----------------------------
 sector = st.selectbox(
@@ -66,12 +83,16 @@ if sector != "All":
     df = df[df["SECTOR"] == sector]
 
 # -----------------------------
-# Top Buyout Opportunities
+# Deal Screener
 # -----------------------------
-st.subheader("Top Buyout Opportunities")
+qualified_deals = df[
+    (df["IRR (%)"] >= irr_threshold)
+]
+
+st.subheader("Qualified Investment Opportunities")
 
 st.dataframe(
-    df.sort_values("IRR (%)", ascending=False)[
+    qualified_deals[
         [
             "COMPANY_NAME",
             "SECTOR",
@@ -79,7 +100,7 @@ st.dataframe(
             "EQUITY_MULTIPLE",
             "IRR (%)"
         ]
-    ],
+    ].sort_values("IRR (%)", ascending=False),
     use_container_width=True
 )
 
@@ -124,7 +145,7 @@ scatter = px.scatter(
 st.plotly_chart(scatter, use_container_width=True)
 
 # -----------------------------
-# Deal Recommendations
+# Recommended Targets
 # -----------------------------
 st.subheader("Recommended Targets")
 
@@ -138,7 +159,7 @@ Sector: {row['SECTOR']}
 Equity Multiple: {row['EQUITY_MULTIPLE']:.2f}x  
 Expected IRR: **{row['IRR (%)']:.1f}%**
 
-Reason: High return potential based on revenue growth and strong profitability.
+Reason: High projected returns based on strong growth and profitability.
 """)
 
 st.divider()
@@ -146,10 +167,8 @@ st.divider()
 # -----------------------------
 # Footer
 # -----------------------------
-st.markdown(
-"""
-**Pipeline**
+st.markdown("""
+**Data Pipeline**
 
-Synthetic Financial Data → Snowflake Warehouse → Financial Metrics → Deal Scoring → LBO Simulation → IRR Ranking
-"""
-)
+Synthetic Financial Data → Snowflake Warehouse → Financial Metrics → Deal Scoring → LBO Simulation → IRR Analysis → Streamlit Dashboard
+""")

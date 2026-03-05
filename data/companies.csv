@@ -1,0 +1,301 @@
+company_id,company_name,sector,country,founded_year
+1,Parks-Lopez,Fintech,Germany,2001
+2,Santiago-Hale,Software,France,2005
+3,"Lane, Cortez and Parker",Consumer,USA,2010
+4,"Roth, Palmer and Walker",Fintech,UK,1994
+5,Davidson Ltd,Fintech,UK,1995
+6,Snyder and Sons,Healthcare,Netherlands,1985
+7,"Martinez, Wright and Padilla",Fintech,UK,1997
+8,Carlson Ltd,Software,Netherlands,2010
+9,Bradley-Tyler,Consumer,Germany,2012
+10,Goodman-Williams,Fintech,Netherlands,2018
+11,"Williams, Mejia and Ramirez",Software,France,2001
+12,Patterson-Gordon,Consumer,USA,2013
+13,Carter-Ramirez,Industrial,Germany,1988
+14,Parker-Bowman,Consumer,USA,2011
+15,"Woodard, Wolf and Sanders",Software,Germany,2002
+16,"Lawson, Kaiser and Gutierrez",Consumer,Germany,2008
+17,"Nguyen, Black and Brown",Software,France,1994
+18,Lewis-Riley,Industrial,Netherlands,1995
+19,"Costa, Randall and Eaton",Consumer,Germany,2014
+20,Patterson-Avila,Software,UK,1999
+21,"Carpenter, Carter and Black",Software,USA,1985
+22,"Stone, Lowe and Glover",Consumer,Netherlands,1986
+23,Acosta-Beltran,Software,Germany,2014
+24,"Kennedy, Holden and Alexander",Healthcare,France,1998
+25,Burton and Sons,Fintech,France,1994
+26,Brooks-Hill,Consumer,Germany,1986
+27,Garcia Inc,Industrial,France,1987
+28,Crawford-Walters,Healthcare,Germany,2011
+29,Phillips-Johnson,Healthcare,France,2003
+30,Miller and Sons,Software,France,1989
+31,Sanchez-Wang,Healthcare,UK,1994
+32,"Carlson, Higgins and Adams",Consumer,UK,2002
+33,Meyers-Wood,Healthcare,France,2000
+34,"Reyes, Shepard and Kirk",Fintech,France,2013
+35,Hahn Inc,Software,UK,1988
+36,Olson-Vazquez,Consumer,USA,1986
+37,Jones Inc,Healthcare,France,1992
+38,Everett-Hammond,Software,France,1990
+39,Hess Ltd,Fintech,USA,1985
+40,"Logan, Serrano and Harris",Software,France,2004
+41,Carter-Hess,Consumer,Germany,1986
+42,Cooper-Schroeder,Industrial,USA,2018
+43,Lee and Sons,Industrial,UK,2008
+44,"Charles, White and Castillo",Consumer,Netherlands,2001
+45,Wolfe Ltd,Fintech,Netherlands,1997
+46,Smith-Brown,Industrial,UK,1994
+47,Taylor LLC,Consumer,USA,2017
+48,"Copeland, Miller and Lewis",Healthcare,USA,2009
+49,"Rios, Fields and Alexander",Fintech,Netherlands,2006
+50,Martin Ltd,Consumer,Germany,1998
+51,"Smith, Bowers and Donaldson",Software,Germany,2007
+52,Lambert-Hale,Software,France,2010
+53,Anderson LLC,Consumer,France,1990
+54,Rush Inc,Fintech,Netherlands,2000
+55,Thomas-Lyons,Consumer,UK,1997
+56,Scott-Evans,Consumer,France,1996
+57,Reyes PLC,Industrial,Germany,2009
+58,"Stewart, Moreno and Garcia",Consumer,France,1990
+59,Wood-Ford,Consumer,Netherlands,1992
+60,Little-Ponce,Healthcare,France,2006
+61,Douglas PLC,Fintech,USA,1986
+62,"Morales, Washington and Sandoval",Consumer,UK,2000
+63,Cardenas Inc,Healthcare,USA,2000
+64,Kelley-Dawson,Consumer,Germany,1995
+65,Donovan-Mckenzie,Industrial,France,2003
+66,Mullen-Foley,Consumer,UK,2002
+67,Lewis-Smith,Software,Netherlands,1994
+68,"Rivera, Gray and Mckenzie",Fintech,Germany,1996
+69,Andrade-Torres,Software,France,1991
+70,Wheeler PLC,Consumer,Netherlands,1998
+71,"Baxter, Baker and Sanford",Software,Germany,1987
+72,Brown-Morrow,Software,Germany,2000
+73,"Holloway, Espinoza and Watson",Industrial,Netherlands,1995
+74,Mcclure Inc,Industrial,USA,2015
+75,Jones Inc,Consumer,Netherlands,1991
+76,Stewart-Crosby,Software,USA,2013
+77,"Jones, Smith and Schmidt",Industrial,Netherlands,1990
+78,"Higgins, Hess and Ellison",Fintech,Netherlands,2014
+79,Williams Group,Software,UK,1990
+80,Thompson-Smith,Healthcare,USA,2004
+81,"Johnson, Lucas and Parker",Industrial,Netherlands,1985
+82,Hart-Hunt,Healthcare,UK,2006
+83,Brock and Sons,Industrial,Germany,2017
+84,"Brown, Harvey and Anderson",Software,Netherlands,1991
+85,Miller Inc,Consumer,Germany,1996
+86,Payne-Williams,Software,Netherlands,1995
+87,"Smith, Caldwell and Olsen",Consumer,Germany,1995
+88,Tran-Hudson,Healthcare,USA,1999
+89,Mann LLC,Healthcare,Germany,2017
+90,"Smith, Kim and Beard",Software,Germany,1994
+91,"Nelson, Edwards and Delgado",Software,France,1998
+92,Tucker and Sons,Healthcare,Netherlands,2003
+93,Wood-Sandoval,Consumer,USA,1985
+94,Leach-Khan,Industrial,Netherlands,1996
+95,Goodman-Smith,Industrial,France,2003
+96,Franklin-Martin,Fintech,Germany,2010
+97,"Clark, Lopez and Carr",Industrial,USA,1988
+98,"Conway, Oconnell and Chan",Industrial,France,1992
+99,Jones PLC,Healthcare,Germany,1991
+100,Moran LLC,Industrial,UK,2013
+101,"Christian, Sparks and Jackson",Software,USA,1996
+102,Fisher Inc,Industrial,UK,2013
+103,Stewart-Long,Industrial,UK,2012
+104,Lee-Curry,Fintech,Netherlands,1987
+105,Marks-Wise,Software,USA,2012
+106,"Brooks, Smith and Patterson",Fintech,Netherlands,1985
+107,Miller Inc,Software,Netherlands,2011
+108,Soto-Fernandez,Software,UK,1987
+109,"Ruiz, Fields and Peterson",Consumer,USA,1985
+110,Mcgee-Mcguire,Software,USA,1993
+111,Mccall-Carpenter,Industrial,UK,2000
+112,"Marquez, Day and Irwin",Consumer,Netherlands,1995
+113,Shaw PLC,Industrial,Netherlands,2013
+114,Lynn Group,Software,France,2002
+115,"Jones, Adams and Curtis",Fintech,France,1989
+116,"Sanchez, Burgess and Ball",Consumer,USA,2004
+117,"Ortiz, Noble and Burns",Consumer,Netherlands,1997
+118,Lambert Inc,Fintech,USA,2004
+119,"Martinez, Shaw and Chavez",Consumer,USA,1988
+120,"Alvarez, Phillips and Lee",Industrial,Germany,2016
+121,"Hurley, Smith and Gutierrez",Fintech,Germany,2003
+122,"Brennan, Hernandez and Gonzalez",Fintech,France,2013
+123,"Kennedy, Singleton and Hill",Healthcare,UK,1992
+124,Turner LLC,Fintech,Germany,2006
+125,"Mason, Kim and Morris",Fintech,France,1999
+126,"Alexander, Rich and Ross",Consumer,Germany,2010
+127,Mcmahon-Oconnor,Fintech,Germany,2014
+128,Townsend-Dunlap,Software,France,2006
+129,Martin Inc,Software,UK,1995
+130,Sanchez-Smith,Healthcare,France,1994
+131,Henry and Sons,Consumer,Netherlands,1994
+132,Shannon-Perez,Fintech,France,1999
+133,"Powers, Ramos and Saunders",Industrial,Germany,1988
+134,Gardner PLC,Industrial,Netherlands,1996
+135,Meadows-Flores,Consumer,France,1992
+136,Frank LLC,Software,Netherlands,1999
+137,"Gibson, Perez and Deleon",Healthcare,France,2004
+138,"Clark, Pearson and Patrick",Healthcare,UK,2005
+139,Stanton-White,Industrial,USA,1999
+140,Baker-Delacruz,Industrial,France,1994
+141,Patel-Moody,Industrial,USA,2014
+142,"Taylor, Mendoza and Garcia",Healthcare,Germany,2010
+143,Jones Inc,Industrial,UK,2001
+144,Ward Group,Healthcare,UK,2009
+145,Hoffman-Miller,Healthcare,USA,2016
+146,Parker LLC,Consumer,USA,1996
+147,Davis LLC,Fintech,France,1991
+148,Butler and Sons,Software,France,2006
+149,"Hill, Estes and Jackson",Industrial,France,1994
+150,Morgan Group,Healthcare,Netherlands,1991
+151,"Newman, Lane and Hodges",Healthcare,UK,2009
+152,Campbell Inc,Fintech,UK,1985
+153,Gordon Inc,Software,France,2003
+154,Snow-Harris,Healthcare,UK,1994
+155,Jimenez-Mercado,Healthcare,UK,2001
+156,Sandoval-Harris,Consumer,USA,2001
+157,Gonzalez-Torres,Consumer,Germany,1994
+158,Reilly-Smith,Healthcare,Germany,2015
+159,Townsend and Sons,Consumer,UK,1992
+160,Hill-Sawyer,Consumer,France,1993
+161,Rich and Sons,Healthcare,Germany,2003
+162,Barnes Ltd,Healthcare,USA,1992
+163,Blair-Burgess,Consumer,Netherlands,2003
+164,"Hernandez, Williams and Miller",Industrial,France,2014
+165,Mcdonald-Martin,Software,UK,1999
+166,Walters-Griffin,Fintech,France,2016
+167,"Young, Cooper and Gray",Healthcare,France,2002
+168,Johnson and Sons,Industrial,Germany,2012
+169,Castaneda and Sons,Fintech,USA,1988
+170,"Young, Mendoza and Rogers",Industrial,Germany,2011
+171,Davis and Sons,Fintech,Netherlands,2000
+172,"Bentley, Simmons and Williams",Fintech,USA,1988
+173,"Young, Wilson and Tyler",Healthcare,USA,2017
+174,Andrews LLC,Industrial,Netherlands,1995
+175,"Hansen, Flores and Pittman",Consumer,UK,2012
+176,Adams-Foley,Industrial,Netherlands,2015
+177,"Everett, Ross and Wilson",Software,Netherlands,2010
+178,Russell LLC,Consumer,France,2015
+179,Thomas Inc,Fintech,Netherlands,1990
+180,Peters-Cantrell,Software,UK,2013
+181,"Mclaughlin, Thompson and Hamilton",Software,USA,2014
+182,Rivera and Sons,Industrial,USA,1997
+183,Walters PLC,Software,France,2006
+184,"Hahn, Deleon and Harris",Fintech,USA,1989
+185,"Blanchard, Hernandez and Smith",Healthcare,USA,1993
+186,Smith and Sons,Software,France,1989
+187,Johnson-Singh,Industrial,Germany,1991
+188,Wheeler and Sons,Fintech,UK,1988
+189,Watson-White,Consumer,UK,2009
+190,White Group,Fintech,Netherlands,1986
+191,"Swanson, Roberts and Craig",Consumer,France,2016
+192,Vasquez-Walters,Software,Germany,2015
+193,Christensen-Nichols,Industrial,UK,2009
+194,"Cunningham, Lawson and Anderson",Software,USA,2003
+195,Winters-Berry,Industrial,UK,2002
+196,Foster-Dodson,Healthcare,Netherlands,2012
+197,"Taylor, Lewis and Willis",Software,France,2000
+198,"Flowers, Mcgee and Barnett",Fintech,USA,2009
+199,Steele-Moore,Industrial,Netherlands,2017
+200,"Maldonado, Clarke and Hernandez",Healthcare,UK,2003
+201,Sanders-Williams,Software,Netherlands,2009
+202,"Lutz, Oliver and Berger",Fintech,Netherlands,2010
+203,Johnson Group,Software,Germany,1992
+204,Evans-Mosley,Software,UK,2012
+205,Owens-Lopez,Healthcare,France,1990
+206,Williams Ltd,Fintech,France,2018
+207,"Miranda, Johnson and Taylor",Software,USA,1985
+208,Thomas-Salazar,Software,France,2006
+209,Jordan Ltd,Software,Netherlands,2018
+210,Brandt-Bentley,Consumer,USA,2007
+211,Marquez-Yu,Software,Germany,1996
+212,Rosales Inc,Software,UK,1992
+213,Singleton-Reed,Consumer,Germany,2016
+214,Salazar-Harris,Software,UK,2011
+215,Mills LLC,Fintech,France,1988
+216,Barker PLC,Fintech,Germany,2015
+217,Hendrix-Cunningham,Fintech,UK,1998
+218,Francis-Fisher,Fintech,Germany,1985
+219,"Murray, Willis and Huffman",Consumer,Germany,1995
+220,"Gomez, Fox and Wright",Software,USA,1987
+221,Brown-Manning,Healthcare,Netherlands,2017
+222,Cox PLC,Industrial,Germany,1995
+223,Davis-Richardson,Healthcare,Germany,1995
+224,"Harris, Michael and Russell",Consumer,France,2001
+225,"Rodriguez, Smith and Chan",Software,France,2004
+226,Lewis Inc,Software,USA,1994
+227,Garrett LLC,Healthcare,UK,2014
+228,"Frazier, Lindsey and Campos",Fintech,USA,2003
+229,Ford Ltd,Consumer,UK,1992
+230,Holloway-Johnson,Fintech,France,2011
+231,Delgado and Sons,Software,Netherlands,1988
+232,Cole-Taylor,Industrial,Netherlands,2013
+233,Cameron-Preston,Healthcare,Netherlands,1997
+234,"Hansen, Green and Brown",Consumer,France,1989
+235,"Murphy, Larson and Cobb",Software,Netherlands,1998
+236,"Jenkins, James and Houston",Healthcare,Germany,2016
+237,Smith-Wright,Consumer,UK,2006
+238,Martin-Garrett,Healthcare,Germany,1985
+239,Hunter PLC,Consumer,UK,1999
+240,"Pitts, Long and Olsen",Fintech,Netherlands,1992
+241,Hendricks-Horn,Software,Germany,1995
+242,Estes Ltd,Healthcare,Germany,1989
+243,Miller-Brown,Industrial,France,1994
+244,Rogers Ltd,Industrial,France,2011
+245,Carter-Williams,Fintech,Netherlands,2011
+246,Velez PLC,Industrial,Germany,2006
+247,Brooks-Davis,Healthcare,UK,1993
+248,Scott Ltd,Industrial,Germany,1985
+249,Roberts-Brock,Software,France,1987
+250,"Randall, Haley and Smith",Consumer,Germany,2001
+251,Jarvis and Sons,Consumer,France,1989
+252,Love Ltd,Healthcare,France,1991
+253,"Reyes, Myers and Marquez",Fintech,USA,1987
+254,"Wilson, King and Watson",Healthcare,USA,1990
+255,Miller Group,Fintech,Netherlands,1987
+256,"Yoder, Mcclure and Peterson",Healthcare,Germany,2006
+257,Martin Ltd,Industrial,USA,2004
+258,Ward and Sons,Software,Germany,2003
+259,"Wells, Pham and Fritz",Fintech,Germany,1987
+260,Chen Inc,Healthcare,France,2012
+261,Gregory and Sons,Fintech,Germany,1986
+262,"Foster, Davis and Crosby",Consumer,France,2018
+263,Williams-Fuller,Consumer,USA,1994
+264,Ross-Bennett,Fintech,Netherlands,2011
+265,"Torres, Patel and Rodriguez",Software,Germany,1994
+266,"Oneill, Castro and Cruz",Industrial,Netherlands,1997
+267,Cook Group,Software,USA,2008
+268,Marquez-Howard,Software,Netherlands,1992
+269,"Friedman, White and Brown",Industrial,Netherlands,2003
+270,"Chang, Ramos and Mills",Healthcare,Netherlands,2007
+271,Walters PLC,Industrial,Germany,1993
+272,Vance-Malone,Consumer,USA,1995
+273,Rose-Jones,Industrial,France,2013
+274,Williams-Williams,Fintech,France,2002
+275,Jones Ltd,Healthcare,USA,2015
+276,Thomas Inc,Industrial,Germany,2003
+277,Smith-Watson,Healthcare,USA,2007
+278,Browning-Campbell,Software,USA,2012
+279,Roach Ltd,Industrial,France,2003
+280,Cunningham PLC,Consumer,USA,2004
+281,Moore Ltd,Healthcare,Germany,2007
+282,Jones LLC,Healthcare,Netherlands,1988
+283,Mclean Ltd,Consumer,France,2002
+284,"Bond, Peters and Adams",Healthcare,Germany,2000
+285,Liu LLC,Software,Netherlands,2001
+286,"Conner, Reyes and Farmer",Consumer,USA,2008
+287,Jones-Morrison,Fintech,France,2010
+288,Navarro-Pope,Software,France,1990
+289,Garcia Group,Software,France,2010
+290,"Mcguire, Irwin and Clark",Software,Netherlands,2013
+291,Jenkins and Sons,Fintech,Germany,2003
+292,"Williams, Davis and Nixon",Fintech,USA,2004
+293,Klein-Pena,Software,USA,2010
+294,Thompson-Rubio,Software,UK,2013
+295,Bradley LLC,Software,USA,2007
+296,Rodriguez-Brown,Industrial,France,1995
+297,Williams-Bridges,Consumer,France,2008
+298,Powell Ltd,Fintech,Netherlands,2008
+299,Miller-Ibarra,Software,USA,1999
+300,"Lucero, Morrow and Garcia",Consumer,France,2007
